@@ -1,0 +1,35 @@
+Taper :
+ssh -X "numéro-étudiant"@ssh.ufr-info-p6.jussieu.fr
+
+Dans le terminal pour se connecter à la machine de la Sorbonne.
+
+exemple :
+ssh -X 21110485@ssh.ufr-info-p6.jussieu.fr
+
+Puis entrer son mdp.
+
+
+
+Pour compiler :
+gcc -Wall -o "Nom du fichier sans le ".c"" "Nom du fichier"
+"-o" pour output
+
+
+Commande vim :
+Ouvre un éditeur de texte dans le Terminal
+:quit! pour quitter vim
+
+
+Uploader des fichiers :
+Utiliser (Windows) Power Shell
+Se rendre dans le chemin directory du dossier qui contient le fichier
+
+scp './"le nom du fichier"' 21110485@ssh.ufr-info-p6.jussieu.fr:~/"directory de l'emplacement voulu"
+
+Exemple :
+PS C:\Users\luckas\Desktop\Etudes\S2\Eléments de programmation (LU1IN002)\semaine 2	
+scp '.\exemple_graphique.c' 21110485@ssh.ufr-info-p6.jussieu.fr:~/Documents/LU1IN002/semaine2
+
+
+
+gcc -o
